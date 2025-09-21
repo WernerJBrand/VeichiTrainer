@@ -1,0 +1,17 @@
+{
+  "classes": [
+    "Veichi_VFD",
+    "AC_Breaker_3P_63A",
+    "AC_SPD_4P",
+    "DC_Breaker_63A",
+    "DC_SPD",
+    "Fuse_Holder",
+    "Terminal_Block",
+    "Trunking_40x40",
+    "Trunking_60x40",
+    "Copper_Busbar_20x5",
+    "DIN_Rail"
+  ],
+  "measure_as_line": ["Trunking_40x40", "Trunking_60x40", "Copper_Busbar_20x5", "DIN_Rail"],
+  "default_marker_size_mm": 60.0
+}
