@@ -1,0 +1,54 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual envs
+.venv/
+venv/
+env/
+ENV/
+
+# Build / packaging
+build/
+dist/
+*.egg-info/
+*.spec
+
+# Notebooks / tests / logs
+.ipynb_checkpoints/
+.coverage
+htmlcov/
+*.log
+logs/
+
+# ---- OS / IDE noise ----
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# ---- Project data (keep large files out of git) ----
+# (You can keep example small images in a different folder if needed.)
+data/images/**
+data/raw/**
+PhonePhotos/**
+photos/**
+dataset/**        # YOLO exports
+models/**         # trained weights
+outputs/**
+processed/**
+*.zip
+*.tar
+*.tar.gz
+
+# Allow placeholder files so empty folders exist in repo
+!data/.gitkeep
+!data/images/.gitkeep
+!dataset/.gitkeep
+!models/.gitkeep
+
+# mac app bundles (if you package later)
+*.app
+*.dmg
